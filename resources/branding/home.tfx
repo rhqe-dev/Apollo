@@ -1,0 +1,22 @@
+{$clear}
+{$resize.80w.24h}<Bluelagoo>  ████████████████████████████████████████████████████████████████████████████
+<Ibtesam>  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+<white>
+<Bluelagoo>                  ████  █████   ████  █        █      ████ 
+<Bluelagoo>                 █    █ █    █ █    █ █        █     █    █
+<Skyline>                 ██████ █████  █    █ █        █     █    █
+<Ibtesam>                 █    █ █      █    █ █        █     █    █
+<Ibtesam>                 █    █ █       ████  ██████  ██████  ████ 
+<white>
+<Ibtesam>  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+<Bluelagoo>  ████████████████████████████████████████████████████████████████████████████
+<white>
+  <Reaqua>◈  BOTS<white>  {$fake.bots}       <Ibtesam>◈  SESSIONS<white>  {$total.online}       <white>◈  ATTACKS<white>  {$total.attacks.count}       <Skyline>◈  ONGOING<white>  {$total.ongoing}
+<white>
+<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  <white>USER<Mango>  {$user.username}      <white>ROLE<Purple Love>  {$user.role}      <white>EXPIRY<Ibtesam>  {$user.expiry}      <white>LEFT<Ibtesam>  {$user.time_until.expiry}d
+  <white>CONC<Ibtesam>  {$user.concurrents}      <white>MAX TIME<Ibtesam>  {$user.max_time}s      <white>COOLDOWN<Ibtesam>  {$user.cooldown}s      <white>UPTIME<Reaqua>  {$cnc.uptime}
+<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  <Skyline>help<white>  ·  <Skyline>methods<white>  ·  <Skyline>bots<white>  ·  <Skyline>ongoing<white>  ·  <Skyline>lookup<white>  ·  <Skyline>clear<white>  ·  <Skyline>exit
+<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+

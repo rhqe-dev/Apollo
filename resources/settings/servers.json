@@ -1,0 +1,11 @@
+{
+  "servers": [
+    {
+      "name": "server-1",
+      "ip": "",
+      "port": "",
+      "username": "",
+      "password": ""
+    }
+  ]
+}

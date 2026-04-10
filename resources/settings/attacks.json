@@ -1,0 +1,66 @@
+[
+    {
+        "name": "L4",
+        "isStub": true,
+        "description": "L4 method attack stub",
+        "concurrents": 2,
+        "customArguments": [
+            {
+                "name": "port",
+                "type": "number",
+                "range": [1, 65535],
+                "default": 53
+            },
+            {
+                "name": "concs",
+                "type": "number",
+                "range": [1, 200],
+                "default": 1
+            }
+        ]
+    },
+
+    {
+        "name": "L7",
+        "isStub": true,
+        "description": "L7 method attack stub",
+        "concurrents": 2,
+        "customArguments": [
+            {
+                "name": "port",
+                "type": "number",
+                "range": [1, 65535],
+                "default": 443
+            },
+            {
+                "name": "concs",
+                "type": "number",
+                "range": [1, 200],
+                "default": 1
+            }
+        ]
+    },
+
+    {
+        "name": "udp",
+        "description": "udp flood",
+        "methodStub": "L4",
+        "permissions": ["member", "owner"],
+        "customArguments": [
+            {
+                "name": "concs",
+                "type": "number",
+                "range": [1, 200],
+                "default": 1
+            }
+        ],
+        "serverCommands": [],
+        "api": [
+            {
+                "enable": true,
+                "url": "https://google.com/api/attack?key={key}&host=${target}&port=${port}&time=${time}&method=UDP&concurrents=${concs}"
+            }
+        ]
+    }
+
+]

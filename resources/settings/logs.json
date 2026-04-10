@@ -1,0 +1,10 @@
+{
+    "discord": {
+        "webhook": "https://discord.com/api/webhooks/1480947443184046252/jVc--Ywjqp1wVFcoJM0KMTgn-BwTJ51g21uPw2dEtCkQm4p4OlBmLjWTev4yNdtyMPqL",
+        "footer": "apollo cnc"
+    },
+    "telegram": {
+        "token": "<token>",
+        "channel": -100000000000
+    }
+}

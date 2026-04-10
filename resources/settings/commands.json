@@ -1,0 +1,182 @@
+[
+    {
+        "-": "General commands available to all authenticated users.",
+
+        "command": "help",
+        "aliases": ["?"],
+        "syntax": "help",
+        "description": "Display the help screen.",
+        "role": "member",
+        "enabled": true,
+        "branding": "help.tfx"
+    },
+
+    {
+        "command": "methods",
+        "syntax": "methods",
+        "description": "List all available attack methods.",
+        "role": "member",
+        "enabled": true,
+        "branding": "methods.tfx"
+    },
+
+    {
+        "command": "ongoing",
+        "syntax": "ongoing",
+        "description": "Show all currently running attacks.",
+        "role": "member",
+        "enabled": true
+    },
+
+    {
+        "command": "bots",
+        "aliases": ["list"],
+        "syntax": "bots",
+        "description": "Show live bot architecture breakdown.",
+        "role": "member",
+        "enabled": true
+    },
+
+    {
+        "command": "count",
+        "syntax": "count",
+        "description": "Print the current bot count.",
+        "role": "member",
+        "enabled": true
+    },
+
+    {
+        "command": "info",
+        "syntax": "info",
+        "description": "Display CNC version, ports, uptime and session info.",
+        "role": "member",
+        "enabled": true
+    },
+
+    {
+        "command": "banner",
+        "aliases": ["clear", "cls"],
+        "syntax": "banner",
+        "description": "Redraw the home banner / clear the screen.",
+        "role": "member",
+        "enabled": true,
+        "branding": "home.tfx"
+    },
+
+    {
+        "command": "gif",
+        "syntax": "gif <name.gif>",
+        "description": "Play an inline GIF from resources/gifs/.",
+        "role": "member",
+        "enabled": true
+    },
+
+    {
+        "-": "Attack — prefix any method name with a dot to launch it.",
+
+        "command": ".<method>",
+        "syntax": ".<method> <ip> <port> <time> [custom args...]",
+        "description": "Launch an attack using the named method.",
+        "role": "member",
+        "enabled": true
+    },
+
+    {
+        "-": "Session management.",
+
+        "command": "quit",
+        "aliases": ["exit", "logout"],
+        "syntax": "quit",
+        "description": "End the current session.",
+        "role": "member",
+        "enabled": true
+    },
+
+    {
+        "-": "User management — requires reseller role or above.",
+
+        "command": "admin",
+        "syntax": "admin",
+        "description": "Show the user management reference panel.",
+        "role": "reseller",
+        "enabled": true
+    },
+
+    {
+        "command": "users",
+        "syntax": "users",
+        "description": "List all registered users with their role and expiry.",
+        "role": "reseller",
+        "enabled": true
+    },
+
+    {
+        "command": "adduser",
+        "syntax": "adduser <username> <password> [role] [days]",
+        "description": "Create a new user. Resellers may create member/vip only.",
+        "role": "reseller",
+        "enabled": true
+    },
+
+    {
+        "-": "Owner-only commands.",
+
+        "command": "deluser",
+        "syntax": "deluser <username>",
+        "description": "Permanently delete a user account.",
+        "role": "owner",
+        "enabled": true
+    },
+
+    {
+        "command": "setrole",
+        "syntax": "setrole <username> <role>",
+        "description": "Change a user's role. Valid: member, vip, reseller, owner, api.",
+        "role": "owner",
+        "enabled": true
+    },
+
+    {
+        "command": "setlimits",
+        "syntax": "setlimits <username> <concurrents> <maxtime>",
+        "description": "Set per-user concurrent attack and max duration limits. 0 = unlimited.",
+        "role": "owner",
+        "enabled": true
+    },
+
+    {
+        "command": "setexpiry",
+        "syntax": "setexpiry <username> <days|0>",
+        "description": "Set account expiry in days from today. 0 removes the expiry.",
+        "role": "owner",
+        "enabled": true
+    },
+
+    {
+        "command": "apikey",
+        "syntax": "apikey gen|show|revoke <username>",
+        "description": "Generate, display or revoke an API key for a user.",
+        "role": "owner",
+        "enabled": true
+    },
+
+    {
+        "command": "stop",
+        "syntax": "stop",
+        "description": "Send a STOP signal to all connected bots.",
+        "role": "owner",
+        "enabled": true
+    },
+
+    {
+        "command": "example",
+        "aliases": [],
+        "syntax": "example",
+        "description": "Example custom command — replace tfx or text with your content.",
+        "role": "member",
+        "enabled": false,
+        "custom": true,
+        "tfx": "",
+        "text": "  <white>Hello from a custom command!</white>"
+    }
+]

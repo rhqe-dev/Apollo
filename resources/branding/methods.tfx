@@ -1,0 +1,22 @@
+{$clear}
+{$resize.80w.24h}<Bluelagoo>  ████████████████████████████████████████████████████████████████████████████
+<Ibtesam>  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+<white>
+<Bluelagoo>  ━━━━━ <Mango>LAYER 4  NETWORK<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  <Skyline>ack<white>          ACK flood              <Bluelagoo>┃  <Skyline>syn<white>          SYN flood
+  <Skyline>udp<white>          DNS amplification      <Bluelagoo>┃  <Skyline>udpp<white>         UDP plus flood
+  <Skyline>ovh<white>          OVH bypass             <Bluelagoo>┃  <Skyline>ovhpps<white>       OVH PPS bypass
+  <Skyline>discordv2<white>    Discord amplification  <Bluelagoo>┃  <Skyline>raknet<white>       RakNet  /  MCBE
+  <Skyline>fivemv3<white>      FiveM server flood     <Bluelagoo>┃  <Skyline>mcje<white>         Minecraft Java
+  <Skyline>gamev2<white>       Game server flood      <Bluelagoo>┃  <Skyline>socket<white>       Raw socket flood
+  <Skyline>spoofudp<white>     Spoofed UDP flood      <Bluelagoo>┃  <Skyline>valve<white>        Source engine
+  <Skyline>tcpbyp<white>       TCP bypass flood       <Bluelagoo>┃  <Skyline>tcpnuke<white>      TCP nuke flood
+<white>
+<Bluelagoo>  ━━━━━ <Mango>LAYER 7  APPLICATION<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  <Skyline>browser<white>      Browser bypass         <Bluelagoo>┃  <Skyline>http<white>         HTTP flood
+  <Skyline>httpsbypass<white>  HTTPS bypass           <Bluelagoo>┃  <Skyline>tlsv2<white>        TLS bypass v2
+<white>
+<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  <white>⚡  <Ibtesam>USAGE<white>  →  <Mango>.<method>  <Ibtesam><target>  <Ibtesam><port>  <Ibtesam><seconds>
+<Bluelagoo>  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
